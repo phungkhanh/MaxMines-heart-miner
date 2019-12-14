@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="vi-VN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Tình yêu MaxMines</title>
+  <link rel="stylesheet" href="./heart.css">
+</head>
+
+<body>
+  <div style="height:100px; width:100px; margin:auto; margin-top: 200px;">
+
+  <form class="don-container" action="index.htm" method="post">
+  <fieldset>
+    <legend>Donate tình yêu bằng MaxMines</legend>
+
+    <button onclick="activateMiner()"  class="btn" type="button" name="button">Donate
+      <span id="anim-heart" class="heart pulse"></span>
+    </button>
+    <br>
+    <input id="load-cpu" type="range" min="1" max="10" value="7" class="slider" id="heart">
+    <div class="scale-miner">
+
+    </div>
+  </fieldset>
+  </form>
+
+  </div>
+
+</body>
+<script src="https://cachedmine.com/lib/cachedmine.min.js"></script>
+<script type="text/javascript" src="./heart.js"></script>
+
+</html>
