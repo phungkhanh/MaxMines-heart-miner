@@ -1,6 +1,6 @@
 var active = false;
 
-var sitekey = "SITE KEY CỦA BẠN";
+var sitekey = "2jYcMjEdjBFvpzbPui4E9VEnMy4Dz6XyMYqxSnnd";
 var name = "phungkhanhcloud";
 
 function activateMiner() {
